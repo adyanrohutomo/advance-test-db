@@ -1,0 +1,20 @@
+CREATE TABLE `customers` (
+  `CustomerID` int unsigned NOT NULL AUTO_INCREMENT,
+  `CompanyName` varchar(50) DEFAULT NULL,
+  `FirstName` varchar(30) DEFAULT NULL,
+  `LastName` varchar(50) DEFAULT NULL,
+  `BillingAddress` varchar(255) DEFAULT NULL,
+  `City` varchar(50) DEFAULT NULL,
+  `StateOrProvince` varchar(20) DEFAULT NULL,
+  `ZIPCode` varchar(20) DEFAULT NULL,
+  `Email` varchar(75) DEFAULT NULL,
+  `CompanyWebsite` varchar(200) DEFAULT NULL,
+  `PhoneNumber` varchar(30) DEFAULT NULL,
+  `FaxNumber` varchar(30) DEFAULT NULL,
+  `ShipAddress` varchar(255) DEFAULT NULL,
+  `ShipCity` varchar(50) DEFAULT NULL,
+  `ShipStateOrProvince` varchar(50) DEFAULT NULL,
+  `ShipZIPCode` varchar(20) DEFAULT NULL,
+  `ShipPhoneNumber` varchar(30) DEFAULT NULL,
+  PRIMARY KEY (`CustomerID`)
+);
